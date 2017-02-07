@@ -1,0 +1,94 @@
+* {
+	border: 0;
+	box-sizing: border-box;
+	outline: none
+}
+
+body {
+	background: #fff;
+	color: #8c8c8c;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	height: 100%;
+	letter-spacing: 0;
+	line-height: 1
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul {
+	margin: 0;
+	padding: 0
+}
+
+a, a:visited {
+	color: #C7273F;
+	text-decoration: none
+}
+
+a:hover, a:focus, a:active { text-decoration: underline }
+
+ul { list-style-type: none }
+
+header {
+	background: #8A0000 url('images/njit.png') no-repeat 40px center;
+	background-size: 150px 50px;
+	height: 60px;
+	width: 100%
+}
+
+#login {
+	color: #4d4d4d;
+	font-weight: 400;
+	height: 400px;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -200px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 400px
+}
+
+#login h1 {
+	color: #4d4d4d;
+	font-weight: 300
+}
+
+#login p {
+	margin-top: 20px;
+}
+
+#login form {
+	border: 1px solid #aaa;
+	border-radius: 8px;
+	height: 100px;
+	margin: 40px auto;
+	overflow: hidden;
+	width: 300px
+}
+
+#login form label {
+	color: #4d4d4d;
+	float: left;
+	font-size: 12px;
+	font-weight: 600;
+	margin: 20px 0 0 20px;
+	padding: 0
+}
+
+#login form input {
+	border: none;
+	color: #4d4d4d;
+	display: inline-block;
+	float: right;
+	height: 50px;
+	width: 200px
+}
+
+
+
+.split {
+	background: #aaa;
+	clear: both;
+	height: 1px;
+	width: inherit
+}
