@@ -12,14 +12,15 @@
 		<div id="login">
 			<h1>Authentication Service</h1>
 			<p>Please enter your UCID to proceed.</p>
-			<form action="dologin.php" method="post">
+			<form method="POST">
 				<label for="ucid">UCID</label>
 				<input id="ucid" type="text" maxlength="6" placeholder="mma93" />
 				<div class="split"></div>
 				<label for="pass">Password</label>
 				<input id="pass" type="password" maxlength="20" placeholder="required" />
-				<input type="submit" />
+				<input id="submitAjax" type="submit" />
 			</form>
 		</div>
+		<script type="application/javascript" src="functions.js"></script>
 	</body>
 </html>
