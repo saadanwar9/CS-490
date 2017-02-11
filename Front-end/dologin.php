@@ -12,7 +12,8 @@
 
 	# Check POST Variables
 	if (empty($ucid) || empty($pass)) {
-		// throw http error code
+		header($_SERVER['SERVER_PROTOCOL'] . ' 400 Bad Request');
+		die(json_encode(["error" => "Missing Paramater"]));
 	}
 
 	$curl = curl_init();
