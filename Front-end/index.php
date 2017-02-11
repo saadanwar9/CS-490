@@ -2,7 +2,6 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
 		<link rel="stylesheet" href="style.css" />
 		<title>Authentication Service</title>
@@ -18,7 +17,7 @@
 				<div class="split"></div>
 				<label for="pass">Password</label>
 				<input id="pass" type="password" maxlength="20" placeholder="required" />
-				<input id="submitAjax" type="submit" />
+				<input id="submit" type="submit" />
 			</form>
 		</div>
 		<script type="application/javascript" src="functions.js"></script>
